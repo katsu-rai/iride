@@ -3,8 +3,8 @@ import type {
     NextApiRequest,
     NextApiResponse,
 } from "next"
-import type { NextAuthOptions } from "next-auth"
-import { getServerSession } from "next-auth"
+import type {NextAuthOptions} from "next-auth"
+import {getServerSession} from "next-auth"
 import GoogleProvider from "next-auth/providers/google";
 
 // You'll need to import and pass this
